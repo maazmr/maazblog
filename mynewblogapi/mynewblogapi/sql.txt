@@ -1,0 +1,23 @@
+CREATE DATABASE Blogsdb;
+
+CREATE TABLE Blogs
+(
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Title NVARCHAR(255) NOT NULL,
+    Content NVARCHAR(MAX) NOT NULL
+    -- Add other columns as needed
+)
+
+
+INSERT INTO Blogs (Title, Content)
+VALUES
+    ('Sample Blog 1', 'This is the content of the first blog.'),
+    ('Sample Blog 2', 'This is the content of the second blog.'),
+    ('Sample Blog 3', 'Content for the third blog.'),
+    ('Sample Blog 4', 'Content for the fourth blog.'),
+    ('Sample Blog 5', 'Content for the fifth blog.'),
+    ('Sample Blog 6', 'Content for the sixth blog.'),
+    ('Sample Blog 7', 'Content for the seventh blog.'),
+    ('Sample Blog 8', 'Content for the eighth blog.'),
+    ('Sample Blog 9', 'Content for the ninth blog.'),
+    ('Sample Blog 10', 'Content for the tenth blog.');

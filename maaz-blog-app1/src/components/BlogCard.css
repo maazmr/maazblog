@@ -1,0 +1,13 @@
+/* src/components/BlogCard.css */
+.blog-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .blog-card img {
+    max-width: 100%;
+  }
+  
